@@ -133,6 +133,14 @@
           </q-item>
         </q-list>
       </q-expansion-item>
+      <q-item to="/ac" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="lock_open" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Auto complete</q-item-label>
+        </q-item-section>
+      </q-item>
     </q-drawer>
 
     <q-page-container>

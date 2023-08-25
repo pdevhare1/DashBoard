@@ -3,7 +3,7 @@ const routes = [
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-   //   { path: "", component: () => import("pages/IndexPage.vue") },
+      { path: "/ac", component: () => import("pages/Autocomplete.vue") },
    //   { path: "login1", component: () => import("layouts/Login-1.vue") }, // Removed the extra comma here
     ],
   },
