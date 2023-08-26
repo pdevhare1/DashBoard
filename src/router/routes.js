@@ -4,7 +4,15 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [
       { path: "/ac", component: () => import("pages/Autocomplete.vue") },
-   //   { path: "login1", component: () => import("layouts/Login-1.vue") }, // Removed the extra comma here
+      { path: "/cb", component: () => import("pages/Checkbox.vue") },
+      { path: "/cp", component: () => import("pages/Chips.vue") },
+      { path: "/ps", component: () => import("pages/picker.vue") },
+      { path: "/rb", component: () => import("pages/RadioBtn.vue") },
+      { path: "/rg", component: () => import("pages/Range.vue") },
+      { path: "/st", component: () => import("pages/Select.vue") },
+      { path: "/sh", component: () => import("pages/Switch.vue") },
+      { path: "/ti", component: () => import("pages/TextInput.vue") },
+      //   { path: "login1", component: () => import("layouts/Login-1.vue") }, // Removed the extra comma here
     ],
   },
   { path: "/login", component: () => import("pages/Login-1.vue") },

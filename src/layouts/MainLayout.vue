@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-oblue">
       <q-toolbar>
         <q-btn
           flat
@@ -74,7 +74,7 @@
 
     <q-drawer
       v-model="leftDrawerOpen"
-      class="bg-primary text-white"
+      class="bg-dark text-white"
       show-if-above
       bordered
     >
@@ -133,14 +133,93 @@
           </q-item>
         </q-list>
       </q-expansion-item>
-      <q-item to="/ac" active-class="q-item-no-link-highlighting">
-        <q-item-section avatar>
-          <q-icon name="lock_open" />
-        </q-item-section>
-        <q-item-section>
-          <q-item-label>Auto complete</q-item-label>
-        </q-item-section>
-      </q-item>
+      <q-item-label header class="text-weight-bolder text-white"
+        >FORMS</q-item-label
+      >
+      <q-expansion-item icon="receipt" label=" Form Elements">
+        <q-list class="q-pl-lg">
+          <q-item to="/ac" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="format_indent_increase" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Autocomplete</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/cb" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="check_circle" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Checkboxes</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/cp" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="collections_bookmark" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Chips</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/ps" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="colorize" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Pickers</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/rb" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="album" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Radio Buttons</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/rg" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="compare" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Range</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/st" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="check_box" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Select</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/sh" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="confirmation_number" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Switch</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/ti" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="flash_auto" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Text Input</q-item-label>
+            </q-item-section>
+          </q-item>
+          <!-- <q-item active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="call_to_action" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Inputs</q-item-label>
+            </q-item-section>
+          </q-item> -->
+        </q-list>
+      </q-expansion-item>
     </q-drawer>
 
     <q-page-container>

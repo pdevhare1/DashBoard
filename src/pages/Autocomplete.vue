@@ -25,7 +25,7 @@
         </q-card>
 
         <!-- Initialization Card -->
-        <q-card>
+        <q-card class="dark text-white shadow-up-6">
           <q-card-section>
             <h5 class="text-h5">Initialization</h5>
             <p>
@@ -39,7 +39,7 @@
         </q-card>
 
         <!-- Options Card -->
-        <q-card>
+        <q-card class="dark text-white shadow-up-6">
           <q-card-section>
             <h5 class="text-h5">Options</h5>
             <q-table
@@ -53,7 +53,7 @@
         </q-card>
 
         <!-- sortFunction Card -->
-        <q-card>
+        <q-card class="dark text-white shadow-up-6">
           <q-card-section>
             <h5 class="text-h5">sortFunction</h5>
             <p>
@@ -72,7 +72,7 @@
         </q-card>
 
         <!-- Methods Card -->
-        <q-card>
+        <q-card class="dark text-white shadow-up-6">
           <q-card-section>
             <h5 class="text-h5">Methods</h5>
             <p>
@@ -102,7 +102,7 @@
         </q-card>
 
         <!-- Properties Card -->
-        <q-card>
+        <q-card class="dark text-white shadow-up-6">
           <q-card-section>
             <h5 class="text-h5">Properties</h5>
             <q-table
