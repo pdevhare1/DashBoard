@@ -12,6 +12,15 @@ const routes = [
       { path: "/st", component: () => import("pages/Select.vue") },
       { path: "/sh", component: () => import("pages/Switch.vue") },
       { path: "/ti", component: () => import("pages/TextInput.vue") },
+      { path: "/fm", component: () => import("pages/FormMask.vue") },
+      { path: "/fl", component: () => import("pages/FormLayout.vue") },
+      { path: "/ig", component: () => import("pages/InputGrid.vue") },
+      { path: "/fh", component: () => import("pages/FormH.vue") },
+      { path: "/fwb", component: () => import("pages/FormWithBordered.vue") },
+      { path: "/frs", component: () => import("pages/FormRowSeparator.vue") },
+      { path: "/fr", component: () => import("pages/FormRepeater.vue") },
+      { path: "/fv", component: () => import("pages/FormValidations.vue") },
+
       //   { path: "login1", component: () => import("layouts/Login-1.vue") }, // Removed the extra comma here
     ],
   },

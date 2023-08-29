@@ -133,6 +133,7 @@
           </q-item>
         </q-list>
       </q-expansion-item>
+
       <q-item-label header class="text-weight-bolder text-white"
         >FORMS</q-item-label
       >
@@ -220,6 +221,98 @@
           </q-item> -->
         </q-list>
       </q-expansion-item>
+      <q-expansion-item icon="layers" label="Form Pages">
+        <q-list class="q-pl-lg">
+          <q-item to="/fm" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="filter_none" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Mask & Typehead</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/fl" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="filter_b_and_w" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Layout</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/ig" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_inner" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Input Grid</q-item-label>
+            </q-item-section>
+          </q-item>
+          <!-- <q-item active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_style" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Hidden Label</q-item-label>
+            </q-item-section>
+          </q-item> -->
+          <q-item to="/fh" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="art_track" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Horizontal</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/fwb" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="filter_frames" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form with Border</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/frs" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="chrome_reader_mode" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Row Separator</q-item-label>
+            </q-item-section>
+          </q-item>
+          <!-- <q-item active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="assignment" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Row Striped</q-item-label>
+            </q-item-section>
+          </q-item> -->
+          <!-- <q-item active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_horizontal" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Label Striped</q-item-label>
+            </q-item-section>
+          </q-item> -->
+          <q-item to="/fr" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="photo_filter" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Form Repeater</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-expansion-item>
+      <q-item to="/fv" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="assignment_late" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Form Validation</q-item-label>
+        </q-item-section>
+      </q-item>
     </q-drawer>
 
     <q-page-container>
