@@ -100,6 +100,66 @@
                 </q-card-section>
               </q-card>
             </div>
+            <div class="col-md-6 q-col-gutter-xs q-mt-md">
+              <q-card class="shadow-up-6">
+                <q-card-section>
+                  <h5 class="q-mb-md q-mt-xs">Form Control Repeater</h5>
+                  <div class="col col-11">
+                    <q-input label="Name" />
+                  </div>
+                  <div class="col col-11">
+                    <q-input label="Email" />
+                  </div>
+                  <div
+                    class="row q-gutter-sm q-mt-sm"
+                    v-for="(uploader, index) in uploaders"
+                    :key="index"
+                  >
+                    <q-uploader
+                      url="http://localhost:4444/upload"
+                      color="teal"
+                      flat
+                      bordered
+                      no-thumbnails
+                      style="width: 50%"
+                      label="Select files"
+                      class="q-mt-sm"
+                    />
+                    <q-btn
+                      class="q-mt-sm"
+                      type="button"
+                      color="negative"
+                      icon="close"
+                      @click="removeUploader(index)"
+                      style="width: 5%; height: 5%"
+                    />
+                  </div>
+                  <q-btn
+                    class="q-mt-sm"
+                    type="button"
+                    color="primary"
+                    @click="addUploader"
+                  >
+                    Add uploader
+                  </q-btn>
+                  <div class="col col-11">
+                    <q-input label="Designation" />
+                  </div>
+                  <div class="col col-11">
+                    <q-input label="About" />
+                  </div>
+                  <div class="col col-6"></div>
+                  <q-space />
+                  <q-btn
+                    class="q-mt-sm"
+                    style="margin-left: 82%"
+                    type="submit"
+                    color="primary"
+                    >Submit</q-btn
+                  >
+                </q-card-section>
+              </q-card>
+            </div>
           </div>
         </div>
       </q-page>
@@ -116,6 +176,7 @@ export default {
         { Email: "" },
       ],
       emails: [{ value: "" }],
+      uploaders: [],
     };
   },
   methods: {
@@ -194,6 +255,12 @@ export default {
     },
     removeFormItem(index) {
       this.formItems.splice(index, 1);
+    },
+    addUploader() {
+      this.uploaders.push({});
+    },
+    removeUploader(index) {
+      this.uploaders.splice(index, 1);
     },
   },
 };
