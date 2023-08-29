@@ -112,7 +112,6 @@ export default {
   data() {
     return {
       formItems: [
-        // Initial form item
         { name: "", email: "", password: "", message: "" },
         { Email: "" },
       ],
@@ -144,7 +143,6 @@ export default {
           !formItem.password ||
           !formItem.message
         ) {
-          // Mark the field as invalid
           formItem.isValid = false;
           isValid = false;
         } else {
@@ -177,7 +175,6 @@ export default {
           !formItem.password ||
           !formItem.message
         ) {
-          // Mark the field as invalid
           formItem.isValid = false;
           isValid = false;
         } else {
