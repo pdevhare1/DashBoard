@@ -193,14 +193,18 @@
                 </q-form>
               </q-card-section>
             </q-card>
-            <div class="row wrap justify-between items-start content-between q-mt-sm q-mx-xs">
+            <div
+              class="row wrap justify-between items-start content-between q-mt-sm q-mx-xs"
+            >
               <div class="col-md-6 q-col-gutter-xs q-mt-md">
                 <q-card class="shadow-up-6">
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Basic usage</h5>
                     <p>
-                      When initializing a typeahead, you pass the plugin method one or more datasets.
-                      The source of a dataset is responsible for computing a set of suggestions for a given query.
+                      When initializing a typeahead, you pass the plugin method
+                      one or more datasets. The source of a dataset is
+                      responsible for computing a set of suggestions for a given
+                      query.
                     </p>
                     <div id="the-basics">
                       <q-input
@@ -218,8 +222,10 @@
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Bloodhound</h5>
                     <p>
-                      Suggestion Engine - For more advanced use cases, rather than implementing the source for your dataset yourself,
-                      you can take advantage of Bloodhound, the typeahead.js suggestion engine.
+                      Suggestion Engine - For more advanced use cases, rather
+                      than implementing the source for your dataset yourself,
+                      you can take advantage of Bloodhound, the typeahead.js
+                      suggestion engine.
                     </p>
                     <div id="bloodhound">
                       <q-input
@@ -237,8 +243,10 @@
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Prefetch</h5>
                     <p>
-                      Prefetched data is fetched and processed on initialization.
-                      If the browser supports local storage, the processed data will be cached there to prevent additional network requests.
+                      Prefetched data is fetched and processed on
+                      initialization. If the browser supports local storage, the
+                      processed data will be cached there to prevent additional
+                      network requests.
                     </p>
                     <div id="prefetch">
                       <q-input
@@ -256,8 +264,9 @@
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Default Suggestions</h5>
                     <p>
-                      Default suggestions can be shown for empty queries by setting the minLength option to 0
-                      and having the source return suggestions for empty queries.
+                      Default suggestions can be shown for empty queries by
+                      setting the minLength option to 0 and having the source
+                      return suggestions for empty queries.
                     </p>
                     <div id="default-suggestions">
                       <q-input
@@ -269,8 +278,7 @@
                   </q-card-section>
                 </q-card>
               </div>
-
-              <div class="col-md-6 q-col-gutter-xs q-mt-md">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card class="shadow-up-6">
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Multiple Datasets</h5>
@@ -286,7 +294,7 @@
                 </q-card>
               </div>
 
-              <div class="col-md-6 q-col-gutter-xs q-mt-md">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card class="shadow-up-6">
                   <q-card-section>
                     <h5 class="q-mb-md q-mt-xs">Scrollable Dropdown Menu</h5>

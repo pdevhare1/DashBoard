@@ -313,6 +313,69 @@
           <q-item-label>Form Validation</q-item-label>
         </q-item-section>
       </q-item>
+      <q-item-label header class="text-weight-bolder text-white"
+        >Tables</q-item-label
+      >
+      <q-item to="/bt" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="apps" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Basic Table</q-item-label>
+        </q-item-section>
+      </q-item>
+      <q-item to="/et" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="graphic_eq" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Editable Table</q-item-label>
+        </q-item-section>
+      </q-item>
+      <q-item to="/gt" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="grain" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Jsgrid Table</q-item-label>
+        </q-item-section>
+      </q-item>
+      <q-item to="/ft" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+          <q-icon name="gamepad" />
+        </q-item-section>
+        <q-item-section>
+          <q-item-label>Footable Table </q-item-label>
+        </q-item-section>
+      </q-item>
+      <q-expansion-item icon="blur_linear" label="Datatables">
+        <q-list class="q-pl-lg">
+          <q-item to="/bit" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_vertical" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Basic Initialisation</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item to="/tt" active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_outer" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>API</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item active-class="q-item-no-link-highlighting">
+            <q-item-section avatar>
+              <q-icon name="border_style" />
+            </q-item-section>
+            <q-item-section>
+              <q-item-label>Advanced Initialisation</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-expansion-item>
     </q-drawer>
 
     <q-page-container>

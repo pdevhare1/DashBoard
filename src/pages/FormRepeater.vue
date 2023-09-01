@@ -50,9 +50,9 @@
             </q-card-section>
           </q-card>
           <div
-            class="row wrap justify-between items-start content-between q-mt-sm q-mx-xs"
+            class="row full-width wrap justify-between items-start content-between q-mt-sm q-mx-xs"
           >
-            <div class="col-md-6 q-col-gutter-xs q-mt-md">
+            <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
               <q-card class="shadow-up-6">
                 <q-card-section>
                   <h5 class="q-mb-md q-mt-xs">Form Control Repeater</h5>
@@ -90,17 +90,13 @@
                   </div>
                   <div class="col col-6"></div>
                   <q-space />
-                  <q-btn
-                    class="q-mt-sm"
-                    style="margin-left: 82%"
-                    type="submit"
-                    color="primary"
+                  <q-btn class="q-mt-sm" type="submit" color="primary"
                     >Submit</q-btn
                   >
                 </q-card-section>
               </q-card>
             </div>
-            <div class="col-md-6 q-col-gutter-xs q-mt-md">
+            <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
               <q-card class="shadow-up-6">
                 <q-card-section>
                   <h5 class="q-mb-md q-mt-xs">Form Control Repeater</h5>
@@ -150,11 +146,7 @@
                   </div>
                   <div class="col col-6"></div>
                   <q-space />
-                  <q-btn
-                    class="q-mt-sm"
-                    style="margin-left: 82%"
-                    type="submit"
-                    color="primary"
+                  <q-btn class="q-mt-sm" type="submit" color="primary"
                     >Submit</q-btn
                   >
                 </q-card-section>

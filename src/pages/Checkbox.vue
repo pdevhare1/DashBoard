@@ -3,7 +3,7 @@
     <q-page-container>
       <q-page padding class="q-gutter-sm">
         <!-- Form Checkboxes Card -->
-        <q-card class="dark text-white shadow-up-6">
+        <q-card class="shadow-up-4">
           <q-card-section>
             <h5 class="text-h5">Form Checkboxes</h5>
             <p>

@@ -5,11 +5,11 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col s12">
-              <q-card class="dark text-white shadow-up-6">
+              <q-card class="shadow-up-4">
                 <q-card-section>
                   <h5 class="text-h6">Options</h5>
                   <q-table
-                    class="striped responsive-table dark text-white shadow-up-6 text-center"
+                    class="shadow-up-4 text-center"
                     :rows="optionsTableRows"
                     :columns="optionsTableColumns"
                   />
@@ -20,7 +20,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">Methods</h5>
                 <p>
@@ -63,7 +63,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">Properties</h5>
                 <q-table

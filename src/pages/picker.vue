@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col s12">
-              <q-card class="dark text-white shadow-up-6">
+              <q-card class="shadow-up-4">
                 <q-card-section>
                   <h5 class="text-h6">Date Picker</h5>
                   <p>
@@ -50,7 +50,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">Initialization</h5>
               </q-card-section>
@@ -59,7 +59,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">Options</h5>
                 <table class="q-table striped responsive-table text-center">
@@ -108,7 +108,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">Datepicker Internationalization options</h5>
                 <p>Use these in the i18n option to localize the datepicker.</p>

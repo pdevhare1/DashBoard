@@ -163,7 +163,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col s12">
+        <!-- <div class="col s12">
           <q-card>
             <q-card-section>
               <h5 class="card-title activator">
@@ -177,7 +177,7 @@
               </h5>
             </q-card-section>
           </q-card>
-        </div>
+        </div> -->
       </q-page>
     </q-page-container>
   </q-layout>

@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col s12">
-              <q-card class="dark text-white shadow-up-6">
+              <q-card class="shadow-up-4">
                 <q-card-section>
                   <h5 class="text-h6">Form Radio Buttons</h5>
                   <p>
@@ -57,7 +57,7 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <q-card class="dark text-white shadow-up-6">
+            <q-card class="shadow-up-4">
               <q-card-section>
                 <h5 class="text-h6">With Gap</h5>
                 <p>

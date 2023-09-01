@@ -20,6 +20,12 @@ const routes = [
       { path: "/frs", component: () => import("pages/FormRowSeparator.vue") },
       { path: "/fr", component: () => import("pages/FormRepeater.vue") },
       { path: "/fv", component: () => import("pages/FormValidations.vue") },
+      { path: "/bt", component: () => import("pages/BasicTable.vue") },
+      { path: "/et", component: () => import("pages/Editabletable.vue") },
+      { path: "/gt", component: () => import("pages/GridTable.vue") },
+      { path: "/tt", component: () => import("pages/TastTable.vue") },
+      { path: "/ft", component: () => import("pages/Footable.vue") },
+      { path: "/bit", component: () => import("pages/BasicInitialisation.vue") },
 
       //   { path: "login1", component: () => import("layouts/Login-1.vue") }, // Removed the extra comma here
     ],

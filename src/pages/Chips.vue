@@ -5,7 +5,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col s12">
-              <q-card class="dark text-white shadow-up-6">
+              <q-card class="shadow-up-4">
                 <q-card-section>
                   <h5 class="text-h5">Form Chips</h5>
                   <p>
@@ -39,7 +39,7 @@
               </q-card>
               <div class="row">
                 <div class="col s12 q-mt-md">
-                  <q-card class="dark text-white shadow-up-6">
+                  <q-card class="shadow-up-4">
                     <q-card-section>
                       <h5 class="text-h6">Contacts</h5>
                       <p>To create a contact chip just add an img inside.</p>
@@ -50,7 +50,7 @@
               <!--next card-->
               <div class="row">
                 <div class="col s12 q-mt-md">
-                  <q-card class="dark text-white shadow-up-6">
+                  <q-card class="shadow-up-4">
                     <q-card-section>
                       <h5 class="text-h6">Tags</h5>
                       <p>
@@ -63,7 +63,7 @@
               </div>
               <div class="row">
                 <div class="col s12 q-mt-md">
-                  <q-card class="dark text-white shadow-up-6">
+                  <q-card class="shadow-up-4">
                     <q-card-section>
                       <h5 class="text-h6">Javascript Plugin</h5>
                       <p>
@@ -119,7 +119,7 @@
               </div>
               <div class="row">
                 <div class="col s12 q-mt-md">
-                  <q-card class="dark text-white shadow-up-6">
+                  <q-card class="shadow-up-4">
                     <q-card-section>
                       <h5 class="text-h6">Options</h5>
                       <table

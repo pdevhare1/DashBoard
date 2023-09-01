@@ -4,8 +4,10 @@
       <q-container>
         <q-page padding class="q-gutter-sm">
           <div class="container-fluid">
-            <div class="row justify-evenly">
-              <div class="col-md-5">
+            <div
+              class="row wrap justify-between items-start content-between q-mt-sm q-mx-xs"
+            >
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card>
                   <q-card-section>
                     <h5 class="card-title activator q-mt-sm">Basic Form</h5>
@@ -52,7 +54,7 @@
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card>
                   <q-card-section>
                     <h5 class="card-title activator q-mt-sm">
@@ -112,7 +114,7 @@
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="col-md-5 q-mt-md">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card>
                   <q-card-section>
                     <h5 class="card-title activator q-mt-sm">
@@ -194,7 +196,7 @@
                   </q-card-section>
                 </q-card>
               </div>
-              <div class="col-md-5 q-mt-md">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card>
                   <q-card-section>
                     <h5 class="card-title activator q-mt-sm">
@@ -414,8 +416,10 @@
                 </q-card>
               </div>
             </div>
-            <div class="row justify-evenly q-mt-md">
-              <div class="col-md-5">
+            <div
+              class="row wrap justify-between items-start content-between q-mt-sm q-mx-xs"
+            >
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card class="q-py-sm q-px-sm">
                   <div class="card-content">
                     <h5 class="card-title activator q-mt-sm">
@@ -530,7 +534,7 @@
                   </q-form>
                 </q-card>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-6 col-xs-12 q-col-gutter-xs wrap q-mt-md">
                 <q-card class="q-py-sm q-px-sm">
                   <div class="card-content">
                     <h5 class="card-title activator q-mt-sm">
